@@ -19,6 +19,7 @@ public class EmployeeService {
     }
 
     public List<Employee> getEmployee() {
+        System.out.println("Inside getEmployee method...");
         return employeeDao.findAll();
     }
 
